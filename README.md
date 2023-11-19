@@ -10,7 +10,7 @@ git clone https://github.com/TheoJJF/Grayscale-Image-Compression.git
 ```
 
 ### Ensuring MATLAB is installed
-Since this repository contains MATLAB scripts, MATLAB must be installed. For steps on purchasing/installing MATLAB, please follow [MathWorks Documentation](https://www.mathworks.com/help/install/install-products.html)
+Since this repository contains MATLAB scripts, MATLAB must be installed. For steps on purchasing/installing MATLAB, please follow [MathWorks Documentation](https://www.mathworks.com/help/install/install-products.html).
 
 ## Low Rank Approximation
 ### What is low rank approximation?
