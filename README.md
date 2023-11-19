@@ -12,6 +12,12 @@ git clone https://github.com/TheoJJF/Grayscale-Image-Compression.git
 ### Ensuring MATLAB is installed
 Since this repository contains MATLAB scripts, MATLAB must be installed. For steps on purchasing/installing MATLAB, please follow [MathWorks Documentation](https://www.mathworks.com/help/install/install-products.html).
 
+### Running the scripts
+```
+matlab -nodisplay -nosplash -nodesktop -r "run('image_compression.m');exit;" | tail -n +11
+matlab -nodisplay -nosplash -nodesktop -r "run('approximation_sample.m');exit;" | tail -n +11
+```
+
 ## Low Rank Approximation
 ### What is low rank approximation?
 To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where their differences are minimized. 
@@ -28,7 +34,7 @@ To best approximate our $m\times n$ matrix $A$, we can use singular value decomp
 
 ## Image Compression and Low Rank Approximation
 ### How is low rank approximation applied here?
-We can represent the pixel intensity of our images to be the entries of $A$, where $m,n$ are the dimensions of our image. Following this, we use singular value decomposition and set a target rank $r$ for low rank approximation. After calculations, the resulting image will be dependent of the value of $r$.
+We can represent the pixel intensity of our images to be the entries of $A$, where $m,n$ are the dimensions of our image. Following this, we use singular value decomposition and set a target rank $r$ for low rank approximation. After calculations, the resulting compressed image will be dependent of the value of $r$.
 
 ### Example Results
 The following approximations are using the [sample image](samples/image1.jpg).
@@ -36,7 +42,7 @@ The following approximations are using the [sample image](samples/image1.jpg).
   <img src=samples/image1_compression_example.jpg />
 </p>
 
-> Note: Setting the value of $r$ to around $100$ to $250$ is enough to give a good approximation of images; however, feel free the sample with approximation of different target ranks with the [approximation sample script](approximation_sample.m).
+> Note: Setting the value of $r$ to around $100$ to $250$ is enough to give a good approximation of images; however, feel free to test out approximation of different target ranks with the [approximation sample script](approximation_sample.m).
 
 **Side by side comparison**
 <p float="left">
