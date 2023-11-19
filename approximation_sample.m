@@ -10,7 +10,7 @@ l = length(ranks);
 for i=1:l
     k = ranks(i);
     
-    approxA = uint8(U(:,1:k)*S(1:k,1:k)*V(:,1:k)');
+    approxA = uint8(U(:,1:k) *S (1:k,1:k) * V(:,1:k)');
 
     figure(1);
     subplot(3,4,i);
