@@ -34,13 +34,13 @@ exit
 
 ## Low Rank Approximation
 ### What is low rank approximation?
-To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where their differences are minimized. 
+To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where the difference of the original matrix and the product are minimized. 
 
 ## Singular Value Decomposition
 ### What is singular value decomposition?
 A singular value decomposition of a $m\times n$ matrix $A$ can be deconstructed to $3$ simple matrices defined below $$A=U\Sigma V^T$$ where:
 1. $U$ is a $m\times m$ orthogonal matrix.
-1. $\Sigma$ is an $m\times n$ diagonal matrix with nonnegative entries, and with the diagonal entries sorted from high to low.
+1. $\Sigma$ is an $m\times n$ diagonal matrix with nonnegative entries, with the diagonal entries sorted from high to low.
 1. $V$ is a $n\times n$ orthogonal matrix.
 
 ### Why use singular value decomposition?
