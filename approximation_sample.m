@@ -1,4 +1,4 @@
-A = imread('image1.jpg');
+A = imread(input('File path/name: ','s'));
 A = rgb2gray(A);
 
 A = double(A);
