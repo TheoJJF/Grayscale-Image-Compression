@@ -34,7 +34,7 @@ exit
 
 ## Low Rank Approximation
 ### What is low rank approximation?
-To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where the difference of the original matrix and the product are minimized. 
+To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where the difference between the original matrix and the product are minimized. 
 
 ## Singular Value Decomposition
 ### What is singular value decomposition?
