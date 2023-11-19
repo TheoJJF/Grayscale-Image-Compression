@@ -1,4 +1,4 @@
-# Grayscale-Image-Compression
+# Grayscale-Image-Approximation
 
 This repository contains a MATLAB script that both grayscales and approximates an image using low rank approximation and singular value decomposition. 
 
