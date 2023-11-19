@@ -9,7 +9,7 @@ if r < 1
     r = 1;
 end
 
-approxA = uint8(U(:,1:r)*S(1:r,1:r)*V(:,1:r)');
+approxA = uint8(U(:,1:r) * S(1:r,1:r) * V(:,1:r)');
 result_img = figure(1);
 imshow(approxA);
 
