@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 # Grayscale-Image-Compression
 
 This repository contains a MATLAB script that both grayscales and compresses an image using low rank approximation and singular value decomposition. 
