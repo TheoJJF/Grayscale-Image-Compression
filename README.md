@@ -58,10 +58,5 @@ We can represent the pixel intensity of our images to be the entries of $A$, whe
 </p>
 
 > Original image(left), rank 100 approximation(right).
-
-The following approximations are using the [sample image](samples/image1.jpg).
-<p align="center">
-  <img src=samples/example.jpg />
-</p>
-
+> 
 > Note: Setting the value of $r$ to around $100$ to $250$ is enough to give a good approximation of images; however, feel free to test out approximation of different target ranks with the [approximation sample script](approximation_sample.m).
