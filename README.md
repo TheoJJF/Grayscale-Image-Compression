@@ -37,3 +37,9 @@ The following approximations are using the [sample image](samples/image1.jpg).
 </p>
 
 > Note: Setting the value of $r$ to around $100$ to $250$ is enough to give a good approximation of images; however, feel free the sample with approximation of different target ranks with the [approximation sample script](approximation_sample.m).
+
+**Side by side comparison**
+<p float="left">
+  <img src=samples/image1.jpg width="45.8%">
+  <img src=samples/rank_100_approx_result.jpg width="51.3%">
+</p>
