@@ -13,9 +13,22 @@ git clone https://github.com/TheoJJF/Grayscale-Image-Compression.git
 Since this repository contains MATLAB scripts, MATLAB must be installed. For steps on purchasing/installing MATLAB, please follow [MathWorks Documentation](https://www.mathworks.com/help/install/install-products.html).
 
 ### Running the scripts
+**Opening MATLAB**
 ```
-matlab -nodisplay -nosplash -nodesktop -r "run('image_compression.m');exit;" | tail -n +11
-matlab -nodisplay -nosplash -nodesktop -r "run('approximation_sample.m');exit;" | tail -n +11
+matlab -nosplash -nodesktop 
+```
+
+> Note: The `-nodisplay` flag can be used if you are not planning to use a graphical display.
+
+**Running either script**
+```
+run('image_compression.m')
+run('approximation_sample.m')
+```
+
+**Exiting MATLAB**
+```
+exit
 ```
 
 
