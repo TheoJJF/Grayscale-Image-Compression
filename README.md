@@ -64,4 +64,4 @@ The following approximations are using the [sample image](samples/image1.jpg).
   <img src=samples/rank_100_approx_result.jpg width="51.3%">
 </p>
 
-> Origin image(left), rank 100 approximation(right).
+> Original image(left), rank 100 approximation(right).
