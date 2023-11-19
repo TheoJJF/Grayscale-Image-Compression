@@ -18,6 +18,7 @@ matlab -nodisplay -nosplash -nodesktop -r "run('image_compression.m');exit;" | t
 matlab -nodisplay -nosplash -nodesktop -r "run('approximation_sample.m');exit;" | tail -n +11
 ```
 
+
 ## Low Rank Approximation
 ### What is low rank approximation?
 To simply put, a low rank approximation of a $m\times n$ matrix $A$ is represented by the product of $2$ lower rank matrices where their differences are minimized. 
