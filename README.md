@@ -26,7 +26,7 @@ run('image_compression.m')
 run('approximation_sample.m')
 ```
 
-> Note: `image_compression.m` does not require a graphical display as the image is automatically saved as a .jpg file into your current working directory. 
+> Note: `image_compression.m` does not require a graphical display as the image is automatically saved as a .jpg file into your current working directory. That being said, it is suggested that you use the graphical display as you will be able to see a preview of the result.
 
 **Exiting MATLAB**
 ```
